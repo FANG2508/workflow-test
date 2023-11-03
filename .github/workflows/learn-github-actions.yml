@@ -12,5 +12,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - name: Super-Linter
-          uses: super-linter/super-linter@v5.6.1
+        uses: super-linter/super-linter@v5.6.1
             
