@@ -4,8 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Main {
-	String v = "123";
-	private static final String password = v;
+	private static final String pd = "123";
 	private static final Logger logger = Logger.getLogger(Main.class.getName());
 
 	public int add(int a, int b) {
@@ -30,7 +29,7 @@ public class Main {
 		
 		// Test cases
 		System.out.println("Test Case 1 (5 + 5): " + calculator.add(5, 5));
-		System.out.println("Test Case 2 (Integer.MAX_VALUE + 1):" + password);
+		System.out.println("Test Case 2 (Integer.MAX_VALUE + 1):" + pd);
 		try {
 			calculator.add(Integer.MAX_VALUE, 1);
 		} catch (Exception e) {
